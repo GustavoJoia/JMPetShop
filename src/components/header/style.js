@@ -29,9 +29,10 @@ const style = StyleSheet.create({
         width: '90%',
         height: '80%',
         position: 'absolute',
-        top: '55%',
+        top: '60%',
         left: '5%',
-        flexDirection: 'row'
+        flexDirection: 'row',
+        alignItems: 'center'
     },
     banner__userArea:{
         flexDirection: 'row',
@@ -39,8 +40,16 @@ const style = StyleSheet.create({
         width: '50%',
         justifyContent: 'space-between'
     },
+    banner__welcome:{
+        fontSize: '1.1em'
+    },
     banner__nome:{
-        color: '#922A0A'
+        color: '#922A0A',
+        fontFamily: 'Carter One'
+    },
+    banner__slogan:{
+        fontSize: '2em',
+        justifyContent: 'space-between'
     }
 })
 

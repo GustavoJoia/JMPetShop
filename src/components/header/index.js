@@ -13,7 +13,7 @@ export default function Header(){
                     <Foundation name="list" size={'2em'} color="black" />
                 </TouchableOpacity>
                 <View style={style.banner__userArea}>
-                    <Text>Bem vindo, (...)</Text>
+                    <Text style={style.banner__welcome}>Bem vindo, (...)</Text>
                     <TouchableOpacity>
                         <View style={style.banner__profile}>
                             <Ionicons name="person" size={'2em'} color="black" />
@@ -24,10 +24,10 @@ export default function Header(){
             </View>
 
             <View style={style.banner__divTitulo}>
-                <Text style={style.banner__nome}>
-                    J.M. & Cia:
-                </Text>
-                <Text>
+                <Text style={style.banner__slogan}>
+                    <Text style={style.banner__nome}>
+                        J.M. & Cia:
+                    </Text>
                     Ração, banho, tosa e creche!
                 </Text>
             </View>
