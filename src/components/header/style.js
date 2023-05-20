@@ -45,11 +45,13 @@ const style = StyleSheet.create({
     },
     banner__nome:{
         color: '#922A0A',
-        fontFamily: 'Carter One'
+        fontFamily: 'Arial'
     },
     banner__slogan:{
         fontSize: '2em',
-        justifyContent: 'space-between'
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'row'
     }
 })
 

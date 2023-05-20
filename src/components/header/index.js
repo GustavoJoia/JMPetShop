@@ -28,7 +28,7 @@ export default function Header(){
                     <Text style={style.banner__nome}>
                         J.M. & Cia:
                     </Text>
-                    Ração, banho, tosa e creche!
+                    Companhia de Pet-Shop
                 </Text>
             </View>
 
