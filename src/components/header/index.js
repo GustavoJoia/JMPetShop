@@ -13,7 +13,7 @@ export default function Header(){
                     <Foundation name="list" size={'2em'} color="black" />
                 </TouchableOpacity>
                 <View style={style.banner__userArea}>
-                    <Text style={style.banner__welcome}>Bem vindo, (...)</Text>
+                    <Text style={style.banner__welcome}>Bem vindo, Cliente</Text>
                     <TouchableOpacity>
                         <View style={style.banner__profile}>
                             <Ionicons name="person" size={'2em'} color="black" />
@@ -28,7 +28,7 @@ export default function Header(){
                     <Text style={style.banner__nome}>
                         J.M. & Cia:
                     </Text>
-                    Companhia de Pet-Shop
+                    Pet-Shop
                 </Text>
             </View>
 

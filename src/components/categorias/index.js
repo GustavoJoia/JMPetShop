@@ -1,11 +1,14 @@
 import style from "./style";
-import { FlatList } from "react-native";
+import { FlatList, Text } from "react-native";
 import categorias from "../../data/categorias";
 import Icon from "../cardCategorias";
 
 export default function Categorias(){
 
     return(
+        <>
+        
+        <Text style={style.titulo}>Categorias</Text>
         <FlatList
             style={style.list}
             horizontal = {true}
@@ -19,6 +22,8 @@ export default function Categorias(){
                 />
             )}
         />
+        
+        </>
     );    
 
 }

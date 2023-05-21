@@ -1,7 +1,7 @@
-const cat = [
+const categorias = [
     {
         id: 1,
-        nome: 'Rações',
+        nome: 'Alimentação',
         foto: 'categorias/1.jpg'
     },
     {
@@ -16,4 +16,4 @@ const cat = [
     }
 ]
 
-export default cat
+export default categorias

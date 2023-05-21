@@ -3,6 +3,7 @@ import fundo from './src/components/fundo';
 
 import Header from './src/components/header';
 import Categorias from './src/components/categorias';
+import Alimentos from './src/components/alimentos';
 
 export default function App() {
   document.title = 'Início - JM Pet-Shop';
@@ -10,6 +11,7 @@ export default function App() {
     <View style={fundo.bg}>
       <Header/>
       <Categorias/>
+      <Alimentos/>
     </View>
   );
 }

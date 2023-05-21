@@ -4,7 +4,8 @@ const style = StyleSheet.create({
     banner__bg:{
         backgroundColor: '#E57C00',
         width: '100%',
-        height: '20%'
+        height: '15%',
+        paddingTop: '1em'
     },
     banner__profile:{
         height: '3em',
@@ -27,9 +28,9 @@ const style = StyleSheet.create({
     banner__divTitulo:{
         backgroundColor: '#D9D9D9',
         width: '90%',
-        height: '80%',
+        height: '55%',
         position: 'absolute',
-        top: '60%',
+        top: '75%',
         left: '5%',
         flexDirection: 'row',
         alignItems: 'center'
@@ -41,11 +42,20 @@ const style = StyleSheet.create({
         justifyContent: 'space-between'
     },
     banner__welcome:{
-        fontSize: '1.1em'
+        fontSize: '1.1em',
+        textAlign: 'right',
+        paddingRight: '0.5em'
     },
     banner__nome:{
-        color: '#922A0A',
-        fontFamily: 'Arial'
+        color: '#c46500',
+        fontFamily: 'Arial',
+        marginRight: '0.2em',
+        marginLeft: '0.1em',
+        fontSize: '1.1em',
+        fontWeight: 'bold',
+        textShadowColor: 'black',
+        textShadowOffset: { width: 1, height: 1 },
+        textShadowRadius: 1
     },
     banner__slogan:{
         fontSize: '2em',
