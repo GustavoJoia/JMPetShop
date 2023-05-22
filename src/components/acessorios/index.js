@@ -19,7 +19,7 @@ export default function Alimentos(){
                         nome={item.nome}
                         marca={item.marca}
                         preco={item.preco}
-                        adicional={item.quantidade}
+                        quantidade={item.quantidade}
                         foto={item.foto}
                     />
                 )}

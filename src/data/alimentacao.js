@@ -1,7 +1,7 @@
 const alimentos = [
     {
         id: 1,
-        nome: 'Ração Seca Pro',
+        nome: 'Ração Seca Pro - Carne & Frango',
         marca: 'Nutrilus',
         preco: 13.69,
         quantidade: '1kg',

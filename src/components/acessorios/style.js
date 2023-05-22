@@ -1,22 +1,24 @@
 import { StyleSheet } from "react-native";
 
 const style = StyleSheet.create({
+
     container:{
-        //borderWidth: 1,
         alignItems: 'center'
     },
     titulo:{
-        //position: 'absolute',
-        marginTop: '1.5em',
-        fontSize: '2.3em',
-        color: '#c46500',
+        position: 'absolute',
+        top: '110%',
+        fontSize: '2em',
+        color: '#C46500',
         textShadowColor: 'black',
         textShadowOffset: { width: 1, height: 1 },
         textShadowRadius: 1
     },
     list:{
-        height: '100%'
+        position: 'relative',
+        top: '130%'
     }
+
 })
 
-export default style;
+export default style
