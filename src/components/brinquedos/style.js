@@ -7,7 +7,8 @@ const style = StyleSheet.create({
         //borderWidth: 1,
         marginTop: '1em',
         maxWidth: '100%',
-        overflow: 'hidden'
+        overflow: 'hidden',
+        paddingTop: '7%'
     },
     titulo:{
         position: 'relative',

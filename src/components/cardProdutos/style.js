@@ -22,7 +22,7 @@ const style = StyleSheet.create({
         fontSize: '1.1em'
     },
     marca:{
-        color: 'orange'
+        color: '#E57C00'
     },
     preco:{
         color: 'green'
