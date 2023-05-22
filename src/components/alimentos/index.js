@@ -21,6 +21,7 @@ export default function Alimentos(){
                         preco={item.preco}
                         adicional={item.quantidade}
                         foto={item.foto}
+                        estoque={item.estoque}
                     />
                 )}
             />

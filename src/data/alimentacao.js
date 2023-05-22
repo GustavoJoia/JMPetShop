@@ -5,7 +5,8 @@ const alimentos = [
         marca: 'Nutrilus',
         preco: 13.69,
         quantidade: '1kg',
-        foto: 'alimentos/1.jpg'
+        foto: 'alimentos/1.jpg',
+        estoque: 100
     },
     {
         id: 2,
@@ -13,7 +14,8 @@ const alimentos = [
         marca: 'GoldeN',
         preco: 15.40,
         quantidade: '1kg',
-        foto: 'alimentos/2.jpg'
+        foto: 'alimentos/2.jpg',
+        estoque: 3
     },
     {
         id: 3,
@@ -21,7 +23,8 @@ const alimentos = [
         marca: 'Keldog',
         preco: 6.99,
         quantidade: '500g',
-        foto: 'alimentos/3.jpg'
+        foto: 'alimentos/3.jpg',
+        estoque: 55
     },
     {
         id: 4,
@@ -29,7 +32,8 @@ const alimentos = [
         marca: 'Whiskas',
         preco: 9.49,
         quantidade: '40g',
-        foto: 'alimentos/4.jpg'
+        foto: 'alimentos/4.jpg',
+        estoque: 10
     }
 ]
 

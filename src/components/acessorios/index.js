@@ -1,18 +1,18 @@
 import { View, Text, FlatList } from 'react-native'
 import style from './style'
-import brinquedos from '../../data/brinquedos'
+import acessorios from '../../data/acessorios'
 
 import Card from '../cardProdutos'
 
-export default function Brinquedos(){
+export default function Acessorios(){
     return(
         <View style={style.container}>
-            <Text style={style.titulo}>Brinquedos</Text>
+            <Text style={style.titulo}>Acessórios</Text>
             <FlatList
                 style={style.list}
                 horizontal={true}
                 showsHorizontalScrollIndicator={true}
-                data={brinquedos}
+                data={acessorios}
                 keyExtractor={(item)=>item.id}
                 renderItem={({item}) =>(
                     <Card
