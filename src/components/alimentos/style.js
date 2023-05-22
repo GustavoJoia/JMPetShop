@@ -4,7 +4,8 @@ const style = StyleSheet.create({
 
     container:{
         alignItems: 'center',
-        borderWidth: 1
+        //borderWidth: 1,
+        maxWidth: '100%'
     },
     titulo:{
         position: 'relative',
