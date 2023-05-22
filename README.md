@@ -5,3 +5,6 @@
 - Escolhido um PetShop como serviço.
 
 #
+
+
+<image src='./assets/readme/1.png' /> <image src='./assets/readme/2.png' /> <image src='./assets/readme/3.png' />

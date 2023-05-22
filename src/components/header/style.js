@@ -4,7 +4,7 @@ const style = StyleSheet.create({
     banner__bg:{
         backgroundColor: '#E57C00',
         width: '100%',
-        height: '10%',
+        height: '8%',
         paddingTop: '1em'
     },
     banner__profile:{
