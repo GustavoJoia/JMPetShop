@@ -11,7 +11,7 @@ export default function Brinquedos(){
             <FlatList
                 style={style.list}
                 horizontal={true}
-                showsHorizontalScrollIndicator={true}
+                showsHorizontalScrollIndicator={false}
                 data={brinquedos}
                 keyExtractor={(item)=>item.id}
                 renderItem={({item}) =>(

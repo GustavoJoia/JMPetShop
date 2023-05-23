@@ -5,7 +5,16 @@ const style = StyleSheet.create({
         backgroundColor: '#363636',
         height: '13%',
         width: '100%',
-        marginTop: '15%'
+        marginTop: '15%',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 6,
+        },
+        shadowOpacity: 0.39,
+        shadowRadius: 8.30,
+
+        elevation: 13,
     },
     colunas:{
         flexDirection: 'row',
@@ -20,25 +29,28 @@ const style = StyleSheet.create({
     },
     titulo:{
         fontSize: '2em',
-        marginBottom: '10%',
-        color: '#E57C00'
+        marginBottom: '6%',
+        color: '#E57C00',
+        fontWeight: '500',
+        marginLeft: '4%'
     },
     contatos:{
         color: '#fdfdfd',
-        borderBottomColor: '#fdfdfd',
-        borderBottomWidth: 1
+        fontSize: '0.9rem',
+        marginLeft: '4%'
     },
     creditos:{
         backgroundColor: '#363636',
         borderColor: '#363636',
         borderWidth: 1,
         textAlign: 'center',
-        color: '#fdfdfd'
+        color: '#aba9a9',
+        fontWeight: '500'
     },
     mapa:{
         backgroundColor: '#fdfdfd',
-        width: '100%',
-        height: '80%',
+        width: '95%',
+        height: '70%',
         justifyContent: 'center',
         alignItems: 'center',
         textAlign: 'center'

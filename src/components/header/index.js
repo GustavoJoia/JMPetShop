@@ -10,7 +10,7 @@ export default function Header(){
             <View style={style.banner__line}>
 
                 <TouchableOpacity>
-                    <Foundation name="list" size={'2em'} color="black" />
+                    <Foundation name="list" size={'2em'} style={style.menu}/>
                 </TouchableOpacity>
                 <View style={style.banner__userArea}>
                     <Text style={style.banner__welcome}>Bem vindo, Cliente</Text>

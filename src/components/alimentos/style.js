@@ -5,17 +5,20 @@ const style = StyleSheet.create({
     container:{
         alignItems: 'center',
         //borderWidth: 1,
-        maxWidth: '100%',
+        width: '95%',
         overflow: 'hidden',
         paddingTop: '7%'
     },
     titulo:{
         position: 'relative',
         fontSize: '2em',
-        color: '#C46500',
-        textShadowColor: 'black',
-        textShadowOffset: { width: 1, height: 1 },
-        textShadowRadius: 1
+        color: '#944c00',
+        fontWeight: '350',
+        marginBottom: '3%'
+    },
+
+    list:{
+        maxWidth: '95%'
     }
 
 })

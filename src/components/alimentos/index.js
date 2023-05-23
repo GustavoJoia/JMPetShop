@@ -11,7 +11,7 @@ export default function Alimentos(){
             <FlatList
                 style={style.list}
                 horizontal={true}
-                showsHorizontalScrollIndicator={true}
+                showsHorizontalScrollIndicator={false}
                 data={alimentos}
                 keyExtractor={(item)=>item.id}
                 renderItem={({item}) =>(

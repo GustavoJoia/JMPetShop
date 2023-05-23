@@ -11,7 +11,7 @@ export default function Acessorios(){
             <FlatList
                 style={style.list}
                 horizontal={true}
-                showsHorizontalScrollIndicator={true}
+                showsHorizontalScrollIndicator={false}
                 data={acessorios}
                 keyExtractor={(item)=>item.id}
                 renderItem={({item}) =>(

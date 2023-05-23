@@ -9,7 +9,7 @@ export default function Card(props){
         msg_estoque = 'Esgotado'
         msg.color = 'red'
     } else if(props.estoque>=1 && props.estoque<=10){
-        msg.color = 'orange'
+        msg.color = '#4f4f4e'
         if(props.estoque==1){
             msg_estoque = '1 restante'
         } else {
