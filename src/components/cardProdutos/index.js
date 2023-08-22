@@ -1,5 +1,6 @@
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native'
 import estilo from './style'
+import { useNavigation } from '@react-navigation/native'
 
 export default function Card(props){
 
@@ -22,8 +23,12 @@ export default function Card(props){
 
     let v_formatado = props.preco.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 
+    const Navigation = useNavigation()
+
     return(
-        <TouchableOpacity style={estilo.card}>
+        <TouchableOpacity style={estilo.card}
+            onPress={()=> Navigation.navigate('details',{nome:props.nome,marca:props.marca,preco:v_formatado,adicional:props.adicional,estoque:msg_estoque,foto:props.foto})}
+        >
             <View style={estilo.imagemIcon}>
                 <Image style={estilo.imagem} source={require(`../../../assets/${props.foto}`)}/>
             </View>
