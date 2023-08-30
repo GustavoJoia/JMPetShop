@@ -20,7 +20,10 @@ export default function Routes(){
                     name='details'
                     component={Details}
                     options={{
-                        headerShown: true,
+                        title: 'Detalhes',
+                        headerStyle:{
+                            backgroundColor: '#E57C00',
+                        }
                     }}
                 />
             </Stack.Navigator>

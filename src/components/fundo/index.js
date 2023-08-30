@@ -10,7 +10,6 @@ const style = StyleSheet.create({
         //flex: 1,
         height: '100%',
         alignItems: 'center',
-        overflow: 'scroll'
     }
 
 })
